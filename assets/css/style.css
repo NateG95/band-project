@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|IBM+Plex+Sans:100,200,300,400,500,600,700');
+
+/*------------------------------------------------------------------------------Colors */
+
+.bg-color {
+    background: #000000;
+}
+
+/*------------------------------------------------------------------------------Style */
+
+.container-fluid {
+    padding: 0;
+}
+
+.logo {
+    background: url("../images/bon-jovi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+}
+
+.text {
+    font-family: "Lato", sans-serif;
+    color: #FF0000;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
