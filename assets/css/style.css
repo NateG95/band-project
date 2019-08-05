@@ -9,25 +9,116 @@
 /*------------------------------------------------------------------------------Style */
 
 .container-fluid {
-    padding: 0;
+    
 }
 
-.logo {
+.band-main-image {
     background: url("../images/bon-jovi.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 250px;
+    height: 100%;
+    min-height: 200px;
+    padding: 0;
+    margin: 0;
 }
 
-.text {
-    font-family: "Lato", sans-serif;
-    color: #FF0000;
-    margin-top: 80px;
-    margin-left: 20px;
-}
-
-h1 {
+.header-text {
+    font-family: "IBM+Plex+Sans", sans-serif;
+    color: #fff;
     font-weight: 700;
-    font-size: 60px;
+    margin-top: 5px;
 }
+
+/*------------------------------------------------------------------------------Media Queries */
+
+@media (min-width: 320px) {
+    
+    .header-text {
+        margin-top: 5px;
+        margin-left: 52px;
+    }
+    .nav {
+        margin-left: 1px;
+    }
+}
+
+@media (min-width: 360px) {
+    
+    .header-text {
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+    .nav {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 375px) {
+    
+    .header-text {
+        margin-top: 5px;
+        margin-left: 80px;
+    }
+    .nav {
+        margin-left: 28px;
+    }
+}
+
+@media (min-width: 411px) {
+    
+    .header-text {
+        margin-top: 5px;
+        margin-left: 100px;
+    }
+    .nav {
+        margin-left: 45px;
+    }
+}
+
+@media (min-width: 425px) {
+    
+    .header-text {
+        margin-top: 5px;
+        margin-left: 108px;
+    }
+    .nav {
+        margin-left: 55px;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .header-text {
+        margin-top: 40px;
+        margin-left: 108px;
+    }
+    .nav {
+        margin-left: 55px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+    .header-text {
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+    .nav {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .header-text {
+        margin-top: 40px;
+        margin-left: 230px;
+    }
+    .nav {
+        margin-left: 180px;
+    }
+}
+
+
