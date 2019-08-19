@@ -63,7 +63,7 @@ no errors regarding compatibility and responsiveness.
 
 - Created a new project at GitHub named "band-project."
 - Pushed different versions of the codes throughout the development process.
-- The web site is now deployed at github pages [here]()
+- The web site is now deployed at github pages [here](https://nateg95.github.io/band-project/index.html)
 
 ## Credits 
 
