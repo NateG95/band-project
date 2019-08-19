@@ -16,7 +16,9 @@
 
     <!--HEADER-->
 
-    <header class="container-fluid bg-color">
+    <!-- Utilized bootstrap for the nav: https://getbootstrap.com/docs/4.0/components/navs/ -->
+
+    <header class="container-fluid header-color">
         <div class="row">
             <div class="band-main-image col-sm-4"></div>
             <div class="col-sm-8">
@@ -45,24 +47,70 @@
 
     <!--MAIN CONTENT/BODY-->
 
+    <!-- mySlides codes were taken from: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+    <!-- Included script codes for the slideshow -->
+    <!-- Commented the "text" code due to the images looking better without it -->
+
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
+            <div class="numbertext">1 / 10</div>
             <img src="assets/images/bon-jovi.jpg" style="width:100%">
-            <div class="text">Bon Jovi</div>
+            <!-- <div class="text">Bon Jovi</div> -->
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
+            <div class="numbertext">2 / 10</div>
             <img src="assets/images/bon-jovi2.jpg" style="width:100%">
-            <div class="text">Bon Jovi</div>
+            <!-- <div class="text">Bon Jovi</div> -->
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
+            <div class="numbertext">3 / 10</div>
             <img src="assets/images/bon-jovi3.jpg" style="width:100%">
-            <div class="text">Bon Jovi</div>
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="assets/images/bon-jovi4.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="assets/images/bon-jovi5.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="assets/images/bon-jovi6.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="assets/images/bon-jovi7.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="assets/images/bon-jovi8.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="assets/images/bon-jovi9.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="assets/images/bon-jovi10.jpg" style="width:100%">
+            <!-- <div class="text">Bon Jovi</div> -->
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -76,7 +124,37 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
     </div>
+
+    <!--FOOTER-->
+
+    <!-- Utilized font-awesome for social media icons: https://fontawesome.com/?from=io -->
+
+    <footer class="container-fluid">
+        <div class="row" id="footer-details">
+            <div class="sm-container col-sm-12 col-xs-8">
+                <ul class="list-inline social-media">
+                    <li><a target="_blank" href="https://www.facebook.com/BonJovi/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/bonjovi/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/BonJovi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://play.google.com/store/music/artist/Bon_Jovi?id=An4e5bnhixdhofvtjcwa2vxmwoe&hl=en_US"><i class="fab fa-google-play"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCkBwnm7GOfYHsacwUjriC-w"><i class="fab fa-youtube-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+                <p class="copyright"> Copyright &copy; 2019 Bon Jovi, All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script codes were taken from: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 
     <script>
         var slideIndex = 1;
@@ -106,22 +184,6 @@
             dots[slideIndex - 1].className += " active";
         }
     </script>
-
-    <!--FOOTER-->
-
-    <footer class="container-fluid">
-        <div class="row" id="footer-details">
-            <div class="sm-container col-sm-12 col-xs-8">
-                <ul class="list-inline social-media">
-                    <li><a target="_blank" href="https://www.facebook.com/BonJovi/"><i class="fab fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/bonjovi/?hl=en"><i class="fab fa-instagram"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/BonJovi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="https://play.google.com/store/music/artist/Bon_Jovi?id=An4e5bnhixdhofvtjcwa2vxmwoe&hl=en_US"><i class="fab fa-google-play"></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/channel/UCkBwnm7GOfYHsacwUjriC-w"><i class="fab fa-youtube-square"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
 </body>
 

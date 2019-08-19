@@ -2,7 +2,7 @@
 
 html,
 body {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     padding: 0px;
     overflow-x: hidden;
 }
@@ -13,7 +13,7 @@ body {
     background-color: #333333;
 }
 
-.bg-color {
+.header-color {
     background: #000000;
 }
 
@@ -23,6 +23,8 @@ body {
 
 
 /*------------------------------------------------------------------------------ index.html Style */
+
+/*------------------------------------------------------------------------------ Header/Footer Style */
 
 .band-main-image {
     background: url("../images/bon-jovi.jpg");
@@ -75,6 +77,8 @@ footer {
     width: 100%;
 }
 
+
+
 .sm-container {
     text-align: center;
 }
@@ -88,15 +92,29 @@ footer {
 }
 
 .social-media li a i {
+    width: 40px;
+    height: 40px;
+    padding: 13px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 15px;
+    text-align: center;
     color: #808080;
+    background: #333333;
     transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
 
 .social-media li a i:hover {
     background: #fff;
+    
+}
+
+.copyright {
+    font-size: 11px;
+    margin: 0;
 }
 
 /*------------------------------------------------------------------------------ media.html Style */
@@ -110,6 +128,9 @@ footer {
 }
 
 /*------------------------------------------------------------------------------ photos.html Style */
+
+/* Photo slideshow codes were taken from: https://www.w3schools.com/howto/howto_js_slideshow.asp
+  Tweaked the codes a little bit to fit my web page. */
 
 .slideshow-container {
     max-width: 1000px;
@@ -152,8 +173,9 @@ footer {
     background-color: rgba(250, 250, 250, 250);
 }
 
-/*Increased font-size to improve visibility*/
+/*Decided not to include this part of the code*/
 
+/*
 .text {
     color: #f2f2f2;
     font-size: 30px;
@@ -163,6 +185,7 @@ footer {
     width: 100%;
     text-align: center;
 }
+*/
 
 .numbertext {
     color: #f2f2f2;
@@ -188,16 +211,19 @@ footer {
     background-color: #717171;
 }
 
+/*Incorporated animation-fill-mode due to the images disappearing after the fade animation*/
+
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
     from {
-        opacity: .4
+        opacity: .02
     }
     to {
         opacity: 1
@@ -206,20 +232,43 @@ footer {
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: .02
     }
     to {
         opacity: 1
     }
 }
 
+/*------------------------------------------------------------------------------ contact.html Style */
+
+h2 {
+    text-align: center;
+    font-family: "IBM+Plex+Sans, sans-serif"
+}
+
+.contacts {
+    font-size: 13px;
+}
+.contact-content {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tour-dates {
+    color: #fff;
+}
+
+.btn-light:hover {
+    background-color:  #BDBDBD;
+}
+
 /*------------------------------------------------------------------------------Media Queries */
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 425px) {
     .prev,
     .next,
     .text {
-        font-size: 11px
+        font-size: 20px
     }
 }
 

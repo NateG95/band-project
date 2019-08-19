@@ -16,7 +16,9 @@
 
     <!--HEADER-->
 
-    <header class="container-fluid bg-color">
+    <!-- Utilized bootstrap for the nav: https://getbootstrap.com/docs/4.0/components/navs/ -->
+
+    <header class="container-fluid header-color">
         <div class="row">
             <div class="band-main-image col-sm-4"></div>
             <div class="col-sm-8">
@@ -42,8 +44,86 @@
             </div>
         </div>
     </header>
+
+    <!--MAIN CONTENT/BODY-->
     
-        <!--FOOTER-->
+    <!-- Utilized bootstrap for form application and tables for Tours -->
+    <!-- bootstrap tables (Table Head Options): https://getbootstrap.com/docs/4.0/content/tables/ -->
+    <!-- bootstrap forms (Form Groups): https://getbootstrap.com/docs/4.0/components/forms/  -->
+
+    <section class="container-fluid">
+        <div class="row contact-tours">
+            <div class="contact-content col-xl-4 col-md-6">
+                <form>
+                    <h2><strong>2019 South America Tour</strong></h2>
+                    <h6><strong>This fall we will be hitting South America from Brazil to Peru!</strong></h4>
+                        <p class="contacts">*Book us now if interested i.e. weddings, birthdays, corporate parties and more!*</p>
+                        <p class="contacts">Availability from 10/05/2019 - 10/31/2019</p>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">First / Last Name</label>
+                            <input required type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Phone Number</label>
+                            <input required type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">E-mail</label>
+                            <input required type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Brief Message</label>
+                            <textarea required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" value="Send!" class="btn btn-light">Submit</button>
+                </form>
+            </div>
+            <div class="tour-dates col-xl-8 col-md-6 col-xs-12">
+                <h2><strong>Tour</strong></h2>
+                <h6>Listed below are the dates for our scheduled performance, book your tickets now!</h6>
+                <div class="table-responsive">
+                    <table class="table table-dark">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Ticket Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Estadio Do Arruda</th>
+                                <td>09/22/2019</td>
+                                <td>Recife, Brazil</td>
+                                <td><a target="_blank" class="btn btn-light" href="https://www.eventim.com.br/bonjovi" role="button">Buy Tickets</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Allianz Parque</th>
+                                <td>09/25/2019</td>
+                                <td>Sao Paulo, Brazil</td>
+                                <td><a target="_blank" class="btn btn-light" href="https://www.eventim.com.br/bonjovi" role="button">Buy Tickets</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pedreira Paulo Leminski</th>
+                                <td>09/27/2019</td>
+                                <td>Curitiba, Brazil</td>
+                                <td><a target="_blank" class="btn btn-light" href="https://www.eventim.com.br/bonjovi" role="button">Buy Tickets</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Estadio Nacional</th>
+                                <td>10/02/2019</td>
+                                <td>Lima, Peru</td>
+                                <td><a target="_blank" class="btn btn-light" href="https://teleticket.com.pe/bon-jovi-2019" role="button">Buy Tickets</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
 
     <footer class="container-fluid">
         <div class="row" id="footer-details">
@@ -55,6 +135,9 @@
                     <li><a target="_blank" href="https://play.google.com/store/music/artist/Bon_Jovi?id=An4e5bnhixdhofvtjcwa2vxmwoe&hl=en_US"><i class="fab fa-google-play"></i></a></li>
                     <li><a target="_blank" href="https://www.youtube.com/channel/UCkBwnm7GOfYHsacwUjriC-w"><i class="fab fa-youtube-square"></i></a></li>
                 </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+                <p class="copyright"> Copyright &copy; 2019 Bon Jovi, All Rights Reserved.</p>
             </div>
         </div>
     </footer>
