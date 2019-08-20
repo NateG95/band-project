@@ -9,15 +9,17 @@ of the web page which opens up a new tab upon clicking.
 
 ## UX
 
-My goal for the website design was to be simple and responsive on different viewports. I chose the 
-black/gray/white color theme to compliment that simple design thought process. 
+As a user, I want to be able to:
+ 
+- read a brief history of the band to get to know their beginnings
+- go to their media page that showcase the band's music throughout the years
+- see photos of the band that shows them performing 
+- view tour dates and a form that can be filled out for booking the band for any events such as birthday parties, weddings,
+  and many more.
+- find links that leads to their social media and other media accounts (facebook, instagram, twitter, googleplaymusic, and youtube)
 
-Things I implemented for the users: 
+Prior to coding for the website. I came up with these mockup wireframes on how I initially wanted the website to look:
 
-- A brief history for people who may not be familiar with the band.
-- Media page that exposes users to the band's tracks.
-- Photos of the band.
-- Tour dates and a form that can be filled out for booking the band.
 
 ## Technologies
 
@@ -31,27 +33,24 @@ Things I implemented for the users:
 ##### This website uses:
 
 - Tabs (Navs) feature in bootstrap which gives a box border when
-hovering over the nav links.
-- Bootstrap forms (Form Groups) to be filled out at the "Contact" page.
+hovering over the nav links
+- Bootstrap forms (Form Groups) to be filled out at the "Contact" page
 - Bootstrap Tables (Table Head Options) to display the band's tour dates
-- Font-Awesome icons for the social media links.  
-- w3schools "Slideshow"  which allows users to cylce through the photos.
+- Font-Awesome icons for the social media links 
+- w3schools "Slideshow"  which allows users to cylce through the photos
 
 ##### Possible features left to implement in the future:
 
--  Tour dates in front of the web page.
--  News section for the band.
--  Social Media feed.
--  A shop section for merchandise.
--  A playlist that could play more of their songs.
+-  Tour dates in front of the web page
+-  News section for the band
+-  Social Media feed
+-  A shop section for merchandise
+-  A playlist that could play more of their songs
 
 ## Testing
 
 The site's table row for the tour dates couldn't be viewed fully on certain smaller devices such as tablets and smartphones.
 Applied "table-responsive" on the table row to allow it scroll from left-right and vice versa. 
-
-All fields in the forms section needs to be filled out. Otherwise it will send a pop-up message requiring you 
-to fill out all of the blank text areas.
 
 Clicking on all of the links (social media, videos, tour tickets) will open a new tab which prevents users from getting redirected from the current page.
 
