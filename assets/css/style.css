@@ -102,9 +102,6 @@ footer {
     color: #808080;
     background: #333333;
     transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -webkit-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
 }
 
 .social-media li a i:hover {
@@ -173,20 +170,6 @@ footer {
     background-color: rgba(250, 250, 250, 250);
 }
 
-/*Decided not to include this part of the code*/
-
-/*
-.text {
-    color: #f2f2f2;
-    font-size: 30px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-*/
-
 .numbertext {
     color: #f2f2f2;
     font-size: 20px;
@@ -214,20 +197,9 @@ footer {
 /*Incorporated animation-fill-mode due to the images disappearing after the fade animation*/
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 2s;
     animation-name: fade;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .02
-    }
-    to {
-        opacity: 1
-    }
 }
 
 @keyframes fade {
