@@ -18,7 +18,14 @@ As a user, I want to be able to:
   and many more.
 - find links that leads to their social media and other media accounts (facebook, instagram, twitter, googleplaymusic, and youtube)
 
-Prior to coding for the website. I came up with these mockup wireframes on how I initially wanted the website to look:
+Prior to coding the website. I came up with these mockup wireframes on how I initially wanted the website to look:
+
+- [Wireframe 1](https://github.com/NateG95/band-project/blob/master/assets/images/IMG_3645.jpg)
+- [Wireframe 2](https://github.com/NateG95/band-project/blob/master/assets/images/IMG_3646.jpg)
+- [Wireframe 3](https://github.com/NateG95/band-project/blob/master/assets/images/IMG_3647.jpg)
+
+Originally I just wanted the website to have 3 pages. I couldn't get that to workout due to not having enough room
+to fit in all of the contents, and I didn't want the website to be cluttered.
 
 
 ## Technologies
@@ -58,10 +65,15 @@ The website was tested accross different web browsers (Google Chrome, Firefox, I
 and different devices ranging from smartphones, tablets, laptops, and desktop to make sure that there are
 no errors regarding compatibility and responsiveness.
 
+- I tested the responsivenss of the website in web development through Chrome. Changing the viewports to see how
+  it responds
+- Sent it to my mentor to be tested
+- Used mobile phone for testing
+
 ## Deployment 
 
-- Created a new project at GitHub named "band-project."
-- Pushed different versions of the codes throughout the development process.
+- Created a new project at GitHub named "band-project"
+- Pushed different versions of the codes throughout the development process
 - The web site is now deployed at github pages [here](https://nateg95.github.io/band-project/index.html)
 
 ## Credits 
